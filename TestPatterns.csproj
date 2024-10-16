@@ -66,6 +66,21 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Порождающие\FactoryMethod\ConcreteCreatorB.cs" />
+    <Compile Include="Порождающие\FactoryMethod\ConcreteCreatorA.cs" />
+    <Compile Include="Порождающие\FactoryMethod\ConcreteProductA.cs" />
+    <Compile Include="Порождающие\FactoryMethod\ConcreteProductB.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Creator.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Product.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\CircHole.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\CircHoleCreator.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\Client.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\Hole.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\HolesCreator.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\HolesEnum.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\HolesFactory.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\RectHole.cs" />
+    <Compile Include="Порождающие\FactoryMethod\Revit\RectHoleCreator.cs" />
     <Compile Include="Порождающие\Singleton\Singleton.cs" />
     <Compile Include="Порождающие\Singleton\MyForm.cs">
       <SubType>Form</SubType>
